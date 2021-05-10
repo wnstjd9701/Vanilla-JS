@@ -6,7 +6,6 @@ function handleClick(){
    title.classList.toggle(CLICKED_CLASS); // class check and if it exists -> add / if does not exist -> remove
 }
 
-
 function init(){
     title.addEventListener("click", handleClick);
 }
