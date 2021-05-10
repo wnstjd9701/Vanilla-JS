@@ -70,7 +70,7 @@ const calculator = {
 }
 const plus = calculator.plus(5, 6);
 console.log(plus);
-console.log(Hello);
+console.log("Hello");
 /* Event - click, resize, submit, input, change, load before closing printing 
 function handleClick(event){
     console.log(event);
