@@ -70,7 +70,7 @@ const calculator = {
 }
 const plus = calculator.plus(5, 6);
 console.log(plus);
-
+console.log(Hello);
 /* Event - click, resize, submit, input, change, load before closing printing 
 function handleClick(event){
     console.log(event);
@@ -133,4 +133,24 @@ function handleOnline(){
 }
 window.addEventListener("offline", handleOffline);
 window.addEventListener("online",handleOnline);
+
+/*
+const title = document.querySelector("#title");
+
+const CLICKED_CLASS = "clicked";
+
+function handleClick(){
+    const hasClass = title.classList.contains(CLICKED_CLASS); // True or False
+    if(hasClass){
+        title.classList.remove(CLICKED_CLASS);
+    }
+    else{
+        title.classList.add(CLICKED_CLASS);
+    }
+}
+
+function init(){
+    title.addEventListener("click", handleClick);
+}
+init();
 */
