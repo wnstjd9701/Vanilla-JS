@@ -1,5 +1,5 @@
 body {
-  background-color: #e4eaeb;
+  background-color: #f5f3f3;
 }
 
 .btn {
@@ -27,6 +27,7 @@ input {
   padding:10px 10px;
   text-align: center;
   font: italic bolder 30px serif;
+  border-radius: 15px;
 }
 ul {
   font-size: 30px;
