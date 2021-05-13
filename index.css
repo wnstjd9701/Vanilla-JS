@@ -1,23 +1,67 @@
-body{
-    background-color: #ecf0f1;
-}
-.btn{
-    cursor: pointer;
-}
 body {
-    color: #34495e; 
-    transition : color .5s ease-in-out;
+  background-color: #e4eaeb;
 }
 
+.btn {
+  cursor: pointer;
+}
+body {
+  color: #34495e;
+}
+h1{
+  text-align: center;
+  height: 20px;
+  font: italic bolder 60px serif;
+}
+h4{
+  text-align: center;
+  height: 20px;
+  font: italic bolder 50px serif;
+}
+.js-toDoForm,.js-form {
+  margin: 0 auto;
+  width: 400px;
+}
+input {
+  font-size:30px; 
+  padding:10px 10px;
+  text-align: center;
+  font: italic bolder 30px serif;
+}
+ul {
+  font-size: 30px;
+  text-align: center;
+  margin: 0 auto;
+  font: italic bolder 30px serif;
+}
 .clicked {
-    color:#7f8c8d;
+  color: #7f8c8d;
 }
 
 .form,
 .greetings {
-    display: none;
+  display: none;
 }
 
-.showing{
-    display: block;
+.showing {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.bgImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 0.5s linear;
 }
