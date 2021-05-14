@@ -2,7 +2,7 @@ const par = "I am Working. I am JS. Beautiful, I am worth it";
 console.log(par);
 let a = 221;
 let b = a - 5;
-const c = 100; // constant ë³€í•˜ì§€ ì•ŠëŠ” ê°’
+const c = 100; // constant º¯ÇÏÁö ¾Ê´Â °ª
 console.log(b, a);
 
 
@@ -76,12 +76,10 @@ function handleClick(event){
     console.log(event);
 }
 window.addEventListener("resize",handleClick);
-
 function handleClick(){
     title.style.color = "blue";
 }
 title.addEventListener("click", handleClick);
-
 // if-else
 if(10 > 5){
     console.log('hi');
@@ -91,23 +89,15 @@ if(10 > 5){
 /*
 //const title = document.getElementById("title");
 //console.log(title);
-
 // DOM - Document Of Module
 console.error("Test");
-
 // querySelector - id : #name, class : 
 const title = document.querySelector("#title");
 title.innerHTML = "Hi! From JS";
-
 document.title = 'I own you';
-
 // Event - click, resize, submit, input, change, load before closing printing 
-
-
-
 const BASE_COLOR = "blue";
 const OTHER_COLOR = "peru";
-
 function handleClick(){
     const currentColor = title.style.color;
     if(currentColor === BASE_COLOR){
@@ -116,14 +106,11 @@ function handleClick(){
         title.style.color = BASE_COLOR;
     }
 }
-
-
 function init(){
     title.style.color = BASE_COLOR;
     title.addEventListener("click", handleClick);
 }
 init();
-
 // When you are Offline or Online, it works
 function handleOffline(){
     console.log("Bye Bye");
@@ -133,12 +120,9 @@ function handleOnline(){
 }
 window.addEventListener("offline", handleOffline);
 window.addEventListener("online",handleOnline);
-
 /*
 const title = document.querySelector("#title");
-
 const CLICKED_CLASS = "clicked";
-
 function handleClick(){
     const hasClass = title.classList.contains(CLICKED_CLASS); // True or False
     if(hasClass){
@@ -148,7 +132,6 @@ function handleClick(){
         title.classList.add(CLICKED_CLASS);
     }
 }
-
 function init(){
     title.addEventListener("click", handleClick);
 }
